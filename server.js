@@ -46,7 +46,7 @@ app.get('/listarUsuarios', (req, res, next) => {
             }
 
             client.end();
-            return res.json(result.rows);
+            return res.json("{'nombre':'Kimberly Muñoz'}");
             
         }); 
     });
