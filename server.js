@@ -34,7 +34,7 @@ app.use(permitirCrossDomain);
 
 app.get('/listarUsuarios', (req, res, next) => {
     
-            return res.json({"nombre":"Kimberly Muñoz"});
+            return res.json({"nombre":"Kimberly Muñoz"},{"nombre":"Pepito"});
             
        
 });
